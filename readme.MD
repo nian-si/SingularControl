@@ -28,4 +28,5 @@ We implement the exact MDP solutions for 2D tandem queue example and criss-cross
 
 ### Method from Kushner and Martins
 we implement the method from [1].
+
 [1] Kushner, Harold J., and Luiz Felipe Martins. "Numerical methods for stochastic singular control problems." SIAM journal on control and optimization 29.6 (1991): 1443-1475.
