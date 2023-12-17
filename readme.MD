@@ -17,9 +17,14 @@ python3 main.py --config_path=configs/tandem.json --dump=False
 
 ### Configs
 *tandem.json* is for the tandem queues example;
+
 *singularcontrol.json* is for the criss-cross example;
+
 *bigstep.json* is for the three-station example;
+
 *tandemHD.json* is for many queues in series;
+
+For the 30-d parallel queue example, please refer to https://github.com/nian-si/RBMSolver using the config file *RBMControlTS1drep.json*.
 
 The code is adapted from https://github.com/MoZhou1995/DeepPDE_ActorCritic.
 
