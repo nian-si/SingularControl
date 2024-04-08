@@ -139,7 +139,7 @@ class singularControl(Equation):
         
         
         w = tf.where(condition, tf.linalg.matvec(x,self.h1), tf.linalg.matvec(x,self.h2) )
-        w = w- tf.linalg.matvec(grad_t,self.mu + tf.constant([1.0,1],dtype = tf.float64))
+        w = w- tf.linalg.matvec(grad_t,self.mu + tf.constant([0.5,1.0],dtype = tf.float64))
 
         w = tf.reshape(w, [-1,1])
         max_zero_grad = tf.math.maximum(tf.cast(0., tf.float64) , grad_t)
