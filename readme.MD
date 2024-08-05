@@ -1,4 +1,4 @@
-# Singular Conotrl Solver
+# Singular Control Solver
 ## Singular Control of (Reflected) Brownian Motion: A Computational Method Suitable for Queueing Applications
 requirement: Numpy and Tensorflow 2
 
